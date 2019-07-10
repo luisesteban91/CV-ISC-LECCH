@@ -1,34 +1,34 @@
  $(function(){
 
-   $(".titulo_datos1").click(function(){
+   $("#titulo_datos1").click(function(){
       if ($('.titulo_datos1').is(':visible')) {
           $('.titulo_datos1').hide();
           console.log('hide')
       }
    });
 
-   $(".titulo_datos2").click(function(){
+   $("#titulo_datos2").click(function(){
       if ($('.titulo_datos2').is(':visible')) {
           $('.titulo_datos2').hide();
           console.log('hide')
       }
    });
 
-   $(".titulo_datos3").click(function(){
+   $("#titulo_datos3").click(function(){
       if ($('.titulo_datos3').is(':visible')) {
           $('.titulo_datos3').hide();
           console.log('hide')
       }
    });
 
-   $(".titulo_datos4").click(function(){
+   $("#titulo_datos4").click(function(){
       if ($('.titulo_datos4').is(':visible')) {
           $('.titulo_datos4').hide();
           console.log('hide')
       }
    });
 
-   $(".titulo_datos5").click(function(){
+   $("#titulo_datos5").click(function(){
       if ($('.titulo_datos5').is(':visible')) {
           $('.titulo_datos5').hide();
           console.log('hide')
