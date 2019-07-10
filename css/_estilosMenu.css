@@ -1,0 +1,114 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+main{
+	width:100%;
+	display:flex;
+}
+header{
+	width:100%;
+	height:60px;
+	background:#227fbc;
+}
+header span{
+	font-size:30px;
+	padding:10px;
+	color:white;
+	transition:all 300ms;
+	cursor:pointer;
+	position:relative;
+	top:16px;
+	left:10px;
+}
+header span:hover{
+	background:rgba(0,0,0,0.4);
+	border-radius:10px;
+}
+.content-menu{
+	width:100px;
+	background:#161616;
+}
+.content-menu2{
+	margin-left:-90px;
+}
+.content-menu li{
+	list-style:none;
+	text-align:center;
+	padding:20px;
+	color:#fff;
+	transition:all 300ms;
+	cursor:pointer;
+}
+.content-menu li:hover{
+	transform:translateY(10px);
+}
+.content-menu li span{
+	font-size:40px;
+}
+.content-menu li h4{
+	font-weight:100;
+	transform: translateY(14px) translateX(-100px);
+	transition:all 300ms;
+}
+
+
+
+
+.content-menu:hover .text1{
+	transform:translateX(0px);
+	transition:all 100ms;
+}
+.content-menu:hover .text2{
+	transform:translateX(0px);
+	transition:all 200ms;
+}
+.content-menu:hover .text3{
+	transform:translateX(0px);
+	transition:all 300ms;
+}
+.content-menu:hover .text4{
+	transform:translateX(0px);
+	transition:all 400ms;
+}
+.content-menu:hover .text5{
+	transform:translateX(0px);
+	transition:all 500ms;
+}
+.content-menu:hover .text6{
+	transform:translateX(0px);
+	transition:all 600ms;
+}
+.content-menu:hover .text7{
+	transform:translateX(0px);
+	transition:all 700ms;
+}
+.content-menu:hover .text8{
+	transform:translateX(0px);
+	transition:all 800ms;
+}
+article{
+	padding:20px;
+}
+article h1{
+	font-size:58px;
+	text-align:center;
+	padding:5px;
+}
+article p{
+	font-size:18px;
+	padding:10px;
+	text-align:justify;
+}
+
+@media(max-width: 980px){
+	.content-menu{
+		margin-left:-90px;
+	}
+	.content-menu2{
+		margin-left:0px;
+	}
+}
+
+
